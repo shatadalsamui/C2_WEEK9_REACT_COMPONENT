@@ -1,12 +1,56 @@
-# React + Vite
+# React Component Composition Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates React component composition patterns with reusable UI components and state management.
 
-Currently, two official plugins are available:
+## Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Reusable `PostComponent` with consistent styling
+- `ToggleMessage` component showing state management
+- Clean layout with responsive design
+- Component isolation and reusability principles
+- Inline styling examples
 
-## Expanding the ESLint configuration
+## Component Structure
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **App** - Main container with layout styling
+2. **PostComponent** - Reusable post display component
+3. **ToggleMessage** - Stateful component demonstrating interactivity
+
+## Getting Started
+
+1. Clone this repository
+2. Install dependencies:
+```bash
+npm install
+```
+3. Run the development server:
+```bash
+npm run dev
+```
+
+## What You'll Learn
+
+- How to create reusable components
+- Component composition patterns
+- Basic state management
+- Layout and styling techniques
+- Props passing between components
+
+## Best Practices
+
+- Keep components small and focused
+- Use composition over inheritance
+- Separate presentational and container components
+- Consistent styling approach
+- Proper component naming
+
+## Technologies Used
+
+- React 18+
+- Vite
+- Modern JavaScript (ES6+)
+- CSS-in-JS styling
+
+## License
+
+MIT
