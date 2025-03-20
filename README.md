@@ -51,8 +51,3 @@ npm run dev
 - Modern JavaScript (ES6+)
 - CSS-in-JS styling
 
-## License
-
-MIT
-
-
