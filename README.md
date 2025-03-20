@@ -28,6 +28,7 @@ npm install
 npm run dev
 ```
 
+
 ## What You'll Learn
 
 - How to create reusable components
@@ -50,4 +51,13 @@ npm run dev
 - Vite
 - Modern JavaScript (ES6+)
 - CSS-in-JS styling
+
+
+
+
+
+
+
+
+
 
